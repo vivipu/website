@@ -75,7 +75,7 @@ nav > ul {
   padding: 30px 20px 5px;
   flex-wrap: wrap;
 }
-@media (max-width: 460px) {
+@media (max-width: 800px) {
   #content-wrapper {
     font-size: 0.85rem;
 	display: flex;
@@ -83,6 +83,7 @@ nav > ul {
     align-items: left;
     text-align: left;
   }
+  
 }
 .welcome-section {
   display: flex;
@@ -124,7 +125,7 @@ nav > ul {
   display: grid;
   grid-gap: 5px;
   grid-auto-flow: column;
-  grid-template-columns: auto auto auto;
+  
   padding: 0px;
   margin: 0 auto;
   justify-items: center;
@@ -152,6 +153,12 @@ figure {
   padding: 0.5em;
   background-color: silver;
   color: #1A1A1D;
+}
+@media (min-width: 800px;) {
+	figure {
+		width: 50%;
+		text-align: right;
+	}
 }
 img.scaled {
   width: 100%;
