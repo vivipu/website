@@ -5,10 +5,11 @@ body {
 	margin: 0 auto;
 	color: #F1F7F9;
 	flex-wrap: wrap;
+	z-index: 1;
 }
 #navbar {
   font-size: 1.45em;
-  position: fixed;
+  position: fixed !important;
   top: 0px;
   margin-top: 0px;
   width: 100%;
@@ -17,6 +18,7 @@ body {
 
 nav {
   font-weight: 400;
+  z-index: 2;
 }
 
 @media (max-width: 750px) {
@@ -70,7 +72,7 @@ nav > ul {
   align-items: center;
   text-align: left;
   font-size: 1.2rem;
-  padding: 5px 20px 5px;
+  padding: 30px 20px 5px;
   flex-wrap: wrap;
 }
 @media (max-width: 460px) {
@@ -121,10 +123,12 @@ nav > ul {
 .grid-container {
   display: grid;
   grid-gap: 5px;
+  grid-auto-flow: column;
   grid-template-columns: auto auto auto;
   padding: 0px;
   margin: 0 auto;
   justify-items: center;
+
 }
 .beginning {
 	display: flex;
@@ -137,4 +141,18 @@ nav > ul {
 }
 a {
 	color: #C3073F;
+}
+figure {
+  width: 30%;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: silver;
+  color: #1A1A1D;
+}
+img.scaled {
+  width: 100%;
 }

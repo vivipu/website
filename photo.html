@@ -1,0 +1,57 @@
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<nav id="navbar">
+    <ul class="ul-fix" style="list-style-type: none;">
+      <li><a class="nav-link" href="index.html">home</a></li>
+      <label class="blank-label">aa</label>
+      <li><a class="nav-link" href="music.html">music</a></li>
+      <label class="blank-label">aa</label>
+      <li><a class="nav-link" href="photo.html">art gallery</a></li>
+	  <label class="blank-label">aa</label>
+	  <li><a class="nav-link" href="https://github.com/veevyo">programming</a></li>
+	  <label class="blank-label">aa</label>
+    </ul>
+</nav>
+</head>
+<body>
+<section class="beginning">
+<div id="content-wrapper">
+<h1>About the gallery</h1>
+<p>This is mostly a showcase of photography and photo editing.</p>
+</div>
+</section>
+<div style="padding: 0 85px 0;">
+<section class="grid-container">
+<figure class="grid-item">
+<img class="scaled"src="jellyfish.jpg">
+<figcaption>"Jellyfish" - an edited picture taken at the Omaha Zoo</figcaption>
+</figure>
+<figure class="grid-item">
+<img class="scaled"src="obelisk.jpg">
+<figcaption>"The Obelisk" - a photo of the Sergeant Floyd Monument in Sioux City, Iowa</figcaption>
+</figure>
+<figure class="grid-item">
+<img class="scaled"src="greatoutdoors.png">
+<figcaption>Cover art for my single <a href="music.html">"The Great Outdoors"</a></figcaption>
+</figure>
+<figure class="grid-item">
+<img class="scaled"src="sunset.png">
+<figcaption>Cover art for my single <a href="music.html">"sunset"</a></figcaption>
+</figure>
+<figure class="grid-item">
+<img class="scaled"src="where-your-eyes-dont-go.JPG">
+<figcaption>"Eyes" - an edited picture of my cat Ashes :)</figcaption>
+</figure>
+</section>
+</div>
+</body>
+<script>
+$(".grid-container").imagesLoaded(function() {
+    $(".grid-container").masonry({
+      itemSelector: ".grid-item"
+    });
+  });
+</script>
