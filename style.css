@@ -148,6 +148,9 @@ figure {
 img.scaled {
   width: 100%;
 }
+video.scaled {
+	width: 100%;
+}
 @media (max-width: 600px) {
   #content-wrapper {
     font-size: 0.85rem;
