@@ -51,6 +51,9 @@ a {
 	.enhance {
 		width: 100%;
 	}
+	table {
+		width: 100%;
+	}
 	th {
 		padding-top: 15%;
 		padding-bottom: 15%;
