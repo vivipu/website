@@ -52,7 +52,7 @@ a {
 		width: 100%;
 	}
 	table {
-		width: 100%;
+		width: 100% !important;
 	}
 	th {
 		padding-top: 15%;
