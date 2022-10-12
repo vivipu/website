@@ -35,14 +35,6 @@ table tr th:nth-child(2){
 a {
 	color: white;
 }
-@media (max-width: 767px) {
-    .hidden-mobile {
-		display: none;
-    }
-    .socials {
-	    width: 75%;
-    }
-}
 .blue {
 	background-color: #315f72;
 }
@@ -52,4 +44,16 @@ a {
 .socials {
 	width: 20%;
 }
-
+@media(max-width: 767px) {
+	.hidden-mobile {
+		display: none;
+	}
+	.enhance {
+		width: 100%;
+	}
+	th {
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+	
+}
