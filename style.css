@@ -39,4 +39,17 @@ a {
     .hidden-mobile {
 		display: none;
     }
+    .socials {
+	    width: 75%;
+    }
 }
+.blue {
+	background-color: #315f72;
+}
+.blue:hover {
+	background-color: #315f72;
+}
+.socials {
+	width: 20%;
+}
+
