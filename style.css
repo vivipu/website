@@ -35,8 +35,28 @@ table tr th:nth-child(2){
 a {
 	color: white;
 }
-@media (max-width: 767px) {
-    .hidden-mobile {
+.blue {
+	background-color: #315f72;
+}
+.blue:hover {
+	background-color: #315f72;
+}
+.socials {
+	width: 20%;
+}
+@media(max-width: 767px) {
+	.hidden-mobile {
 		display: none;
-    }
+	}
+	.enhance {
+		width: 100%;
+	}
+	table {
+		width: 100% !important;
+	}
+	th {
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+	
 }
