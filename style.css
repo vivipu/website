@@ -5,22 +5,32 @@ body {
 	color: #315f72;
 	font-family: "Roboto";
 }
-table {
-	background-color: #315f72;
-	width: 50%;
-	color: white;
-	padding: 15px;
-	border-spacing: 10px;
+section {
+	display: grid;
+	background-color: #274c5b;
+	justify-content: center;
+	text-align: center;
+	border-radius: 1em;
+	padding: 2em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+ 	transform: translate(-50%, -50%);
 }
-th {
-	padding: 5px;
+p {
+	justify-content:center;
+	text-align: center;
+	display: grid;
 	background-color: #efb5a3;
+	padding: 1em;
+	border-radius: 1em;
 }
-th:hover {
+p:hover {
 	background-color: #f57e7e;
 }
 table tr th:nth-child(2){
-       width: 60%;
+       
 }
 .first{
 	 top: 315px;
@@ -44,7 +54,7 @@ a {
 .socials {
 	width: 20%;
 }
-@media(max-width: 767px) {
+/*@media(max-width: 767px) {
 	.hidden-mobile {
 		display: none;
 	}
@@ -59,4 +69,4 @@ a {
 		padding-bottom: 15%;
 	}
 	
-}
+}*/
