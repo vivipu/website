@@ -21,17 +21,17 @@
 
         a:active { text-decoration: none; }
         .big {
-                font-size: 7em;
+                font-size: 5em;
                 text-decoration: bold;
         }
         .medium {
-                font-size: 5em;
-        }
-        .small {
                 font-size: 4em;
         }
+        .small {
+                font-size: 3em;
+        }
 	.smallish {
-		font-size: 3em;
+		font-size: 3.5em;
 	}
         .smaller {
                 font-size: 2em;
