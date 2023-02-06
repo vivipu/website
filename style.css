@@ -1,74 +1,65 @@
-body {
-	display: flex;
-	justify-content: center;
-	background-color: #274c5b;
-	color: #315f72;
-	font-family: "Roboto";
-}
-section {
-	display: grid;
-	background-color: #274c5b;
-	justify-content: center;
-	text-align: center;
-	border-radius: 1em;
-	padding: 2em;
-	position: absolute;
-	height: 90%;
-	width: 90%;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
- 	transform: translate(-50%, -50%);
-}
-p {
-	justify-content:center;
-	text-align: center;
-	display: grid;
-	background-color: #efb5a3;
-	padding: 1em;
-	border-radius: 1em;
-}
-p:hover {
-	background-color: #f57e7e;
-}
-table tr th:nth-child(2){
-       
-}
-.first{
-	 top: 315px;
-     position:absolute;
-	 justify-content: center;
- }
-.second{
-	justify-content: center;
-	position: relative;
-    top: 640px;
-}
-a {
-	color: white;
-}
-.blue {
-	background-color: #315f72;
-}
-.blue:hover {
-	background-color: #315f72;
-}
-.socials {
-	width: 20%;
-}
-/*@media(max-width: 767px) {
-	.hidden-mobile {
-		display: none;
+	body {
+                background-color: #1f1e1e;
+                font-family: Ubuntu;
+        }
+        section {
+		/*height: 100%;*/
+                background-color: #2e2e2e;
+                border-radius: 1em;
+                padding: 2em;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%)
+        }
+        a:link { text-decoration: none; }
+
+        a:visited { text-decoration: none; }
+
+        a:hover { text-decoration: underline; }
+
+        a:active { text-decoration: none; }
+        .big {
+                font-size: 7em;
+                text-decoration: bold;
+        }
+        .medium {
+                font-size: 5em;
+        }
+        .small {
+                font-size: 4em;
+        }
+	.smallish {
+		font-size: 3em;
 	}
-	.enhance {
-		width: 100%;
+        .smaller {
+                font-size: 2em;
+        }
+        .red {
+                color: #FF9AA2;
+        }
+	.pink {
+		color: #FFB7B2;
 	}
-	table {
-		width: 100% !important;
-	}
-	th {
-		padding-top: 15%;
-		padding-bottom: 15%;
-	}
-	
-}*/
+        .orange {
+                color: #FFDAC1;
+        }
+        .yellow {
+                color: #f0eacb;
+        }
+        .green {
+                color: #E2F0CB;
+        }
+        .cyan {
+                color: #B5EAD7;
+        }
+        .purple {
+                color: #C7CEEA;
+        }
+        .white {
+                color: white;
+        }
+        .grey {
+                color: #ababab;
+        }

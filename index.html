@@ -1,38 +1,30 @@
-<script>
-/*
-Random link button- By JavaScript Kit (http://javascriptkit.com)
-Over 300+ free scripts!
-This credit MUST stay intact for use
-*/
-
-//specify random links below. You can have as many as you want
-var randomlinks=new Array()
-
-randomlinks[0]="pages/song.html"
-
-function randomlink(){
-        window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
-}
-</script>
-
 <head>
-	<title>home</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616430.png">
+	<title>vivi's site!</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<section style="width: 20%">
-		<p style="background-color: #315f72"><marquee><img src="media/vivianswebsite.gif"></marquee></p>
-		<br>
-		<p><a href="index.html"><img src="media/home-bear.gif"></a></p>
-		<br>
-		<p><a href="pages/socials.html"><img src="media/typecat.gif"></a></p>
-		<br>
-		<p><a href="mailto:kittytheface@gmail.com"><img src="media/emailcat.gif"></a></p>
-		<br>
-		<p><a href="javascript:randomlink()"><img src="media/CATONPIANO.gif"></a></p>
 
-        </section>
+<body>
+	<section>
+		<p class="grey big">welcome to vivi's site</p>
+		<p class="grey small">check out the links below for my stuff</p>
+		<br>
+		<p class="white smaller">
+			<a class="red" href="https://vivikp.bandcamp.com/" target="_blank">bandcamp</a> • 
+			<a class="pink" href="https://www.deviantart.com/veevyo" target="_blank">deviantart</a> • 
+			<a class="orange" href="mailto:kittytheface@gmail.com" target="_blank">email me</a> • 
+			<a class="yellow" href="https://github.com/veevyo" target="_blank">github</a>
+		</p>
+		<p class="white smaller">
+			<a class="green" href="https://veevyo.newgrounds.com/" target="_blank">newgrounds</a> • 
+			<a class="cyan" href="https://open.spotify.com/artist/5WueKoxgwwnn0yoEtspAuQ" target="_blank">spotify</a> • 
+			<a class="purple" href="https://twitter.com/veevyokp" target="_blank">twitter</a>
+		</p>
+		<br>
+		<p class="grey smallish"><a class="grey" href="javascript:randomlink()">click here for a surprise!</a></p>
+	</section>
 </body>
+
 <script>
 /*
 Random link button- By JavaScript Kit (http://javascriptkit.com)
@@ -52,6 +44,6 @@ randomlinks[6]="pages/song6.html"
 randomlinks[7]="pages/song7.html"
 
 function randomlink(){
-	window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+        window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 }
 </script>
