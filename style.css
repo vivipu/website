@@ -4,6 +4,7 @@
 		width: 100%;
         }
         section {
+		width: 65%;
                 background-color: #2e2e2e;
                 border-radius: 1em;
                 padding: 2em;
