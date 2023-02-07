@@ -71,6 +71,11 @@
 	 @media screen and (max-width:700px) {
   	/* CSS for screens that are 320 pixels or less will be put in this section */
 		section {
+			background-color: #1f1e1e;
 			height: 90%;
 			width: 90%;
+		}
+		.big {
+			font-size: 6em;
+		}
 	}
