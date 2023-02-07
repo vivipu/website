@@ -76,6 +76,14 @@
 			width: 90%;
 		}
 		.big {
-			font-size: 6em;
+			font-size: 5em;
 		}
+		.small {
+			font-size: 3em;
+		}
+		.smallish {
+			font-size: 2em;
+		}
+
+
 	}
