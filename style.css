@@ -1,9 +1,9 @@
 	body {
                 background-color: #1f1e1e;
                 font-family: Ubuntu;
+		width: 100%;
         }
         section {
-		/*height: 100%;*/
                 background-color: #2e2e2e;
                 border-radius: 1em;
                 padding: 2em;
@@ -21,17 +21,17 @@
 
         a:active { text-decoration: none; }
         .big {
-                font-size: 5em;
+                font-size: 7em;
                 text-decoration: bold;
         }
         .medium {
-                font-size: 4em;
+                font-size: 5em;
         }
         .small {
-                font-size: 3em;
+                font-size: 4em;
         }
 	.smallish {
-		font-size: 3.5em;
+		font-size: 3em;
 	}
         .smaller {
                 font-size: 2em;
