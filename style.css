@@ -1,10 +1,13 @@
+	html,body{
+    		overflow-x: hidden;
+	}
 	body {
                 background-color: #1f1e1e;
                 font-family: Ubuntu;
 		width: 100%;
         }
         section {
-		width: 65%;
+		width: 60%;
                 background-color: #2e2e2e;
                 border-radius: 1em;
                 padding: 2em;
@@ -64,3 +67,9 @@
         .grey {
                 color: #ababab;
         }
+
+	 @media screen and (max-width:700px) {
+  	/* CSS for screens that are 320 pixels or less will be put in this section */
+		section {
+			width: 90%;
+	}
