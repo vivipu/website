@@ -10,23 +10,30 @@
                 background-color: #2e2e2e;
                 border-radius: 1em;
                 padding: 2em;
-                position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: 100%;
+		margin: 0 auto;
+		width: 50%;
+                /*position: absolute;
                 top: 50%;
                 left: 50%;
                 margin-right: -50%;
-                transform: translate(-50%, -50%)
+                transform: translate(-50%, -50%)*/
         }
-	.song {
-		width: auto;
+	hr {
+		width: 100%;
+  		margin-left: 0;
+  		margin-right: 0;
+	}
+	.beegimage {
+		width: 75%;
 		height: auto;
-		background-color: #2e2e2e;
-		border-radius: 1em;
-		padding: 2em;
-		position: absolute;
+	}
+	.song {
 		top: 50%;
- 		left: 50%;
- 		margin-right: -50%;
- 		transform: translate(-50%, -50%)
+		
 	}
         a:link { text-decoration: none; }
 
@@ -36,7 +43,8 @@
 
         a:active { text-decoration: none; }
         .big {
-                font-size: 7em;
+                font-size: 6em;
+		line-height: 1em;
                 text-decoration: bold;
         }
         .medium {
@@ -47,6 +55,10 @@
         }
 	.smallish {
 		font-size: 3em;
+	}
+	.headertext {
+		font-size: 1.7em;
+		text-align: center;
 	}
         .smaller {
                 font-size: 2em;
@@ -78,15 +90,23 @@
         .grey {
                 color: #ababab;
         }
+	.rainbowText {
+  		background-image: linear-gradient(to right, #FF9AA2,#FFB7B2,#FFDAC1,#FFDAC1,#E2F0CB,#B5EAD7,#C7CEEA); 
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;  
+  		animation: move 35s linear infinite;
+	}	
 
-	 @media screen and (max-width:700px) {
+	@keyframes move {
+  		to {
+    			background-position: 4500vh;
+  		}
+	}
+
+	 @media screen and (max-width:1000px) {
   	/* CSS for screens that are 320 pixels or less will be put in this section */
 		section {
-			display: inline;
-			top: 0;
-			background-color: #1f1e1e;
-			height: 0;
-			width: 90%;
+			width: 80%;
 		}
 		.big {
 			font-size: 5em;
@@ -100,3 +120,4 @@
 
 
 	}
+
