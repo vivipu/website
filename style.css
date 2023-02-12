@@ -165,11 +165,14 @@ li a {
 	}
 
 	@media screen and (max-width: 1000px) {
+		.big {
+			font-size: 6em;
+		}
 		section {
-			width: 90%;
+			width: 80%;
 		}
 		li a {
-			font-size: 2em;
+			font-size: 1.8em;
 		}
 	}
 	@media screen and (min-width: 1500px) {
