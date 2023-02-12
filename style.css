@@ -22,11 +22,47 @@
                 margin-right: -50%;
                 transform: translate(-50%, -50%)*/
         }
+	.nav {
+		padding: 1em;
+		background-color: #1f1e1e;
+		border-radius: 1em;
+	}
 	hr {
 		width: 100%;
   		margin-left: 0;
   		margin-right: 0;
 	}
+ul {
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f1e1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  /*float: left;*/
+}
+
+li a {
+  font-size: 1em;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #04AA6D;
+}
 	.beegimage {
 		width: 75%;
 		height: auto;
@@ -99,25 +135,45 @@
 
 	@keyframes move {
   		to {
-    			background-position: 4500vh;
+    			background-position: 500vh;
   		}
 	}
 
-	 @media screen and (max-width:1000px) {
-  	/* CSS for screens that are 320 pixels or less will be put in this section */
+	@media screen and (max-width: 1000px) {
 		section {
-			width: 80%;
+			width: 90%;
 		}
-		.big {
-			font-size: 5em;
+		li a {
+			font-size: 1em;
 		}
-		.small {
-			font-size: 3em;
+	}
+	@media screen and (max-width: 800px) {
+		li a {
+			font-size: 0.7em;
 		}
-		.smallish {
-			font-size: 2em;
-		}
+	}
+	@media screen and (max-width:600px) {
+                section {
+                        width: 90%;
+                }
+                .big {
+                        font-size: 5em;
+                }
+                .small {
+                        font-size: 3em;
+                }
+                .smallish {
+                        font-size: 2em;
+                }
+                li a {
+                        font-size: 0.5em;
+                }
 
 
+        }
+	@media screen and (min-width: 1500px) {
+		li a {
+			font-size: 1.3em;
+		}
 	}
 
