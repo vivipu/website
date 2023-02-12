@@ -1,4 +1,5 @@
 <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616430.png">
 	<title>vivi's site!</title>
 	<link rel="stylesheet" href="style.css">
@@ -6,16 +7,23 @@
 </head>
 
 <body>
-	<ul class="">
-                <li><a class="red" href="https://vivikp.bandcamp.com/" target="_blank">bandcamp</a></li>
-		<li><a class="pink" href="https://www.deviantart.com/veevyo" target="_blank">deviantart</a></li>
-		<li><a class="orange" href="mailto:kittytheface@gmail.com" target="_blank">email me</a></li>
-		<li><a class="yellow" href="https://github.com/veevyo" target="_blank">github</a></li>
-		<li><a class="green" href="https://veevyo.newgrounds.com/" target="_blank">newgrounds</a></li>
-		<li><a class="cyan" href="https://open.spotify.com/artist/5WueKoxgwwnn0yoEtspAuQ" target="_blank">spotify</a></li>
-		<li><a class="purple" href="https://twitter.com/veevyokp" target="_blank">twitter</a></li>
-		<li><a class="grey rainbowText" href="javascript:randomlink()">click me!</a></li>
-	</ul>
+	<div class="nav">
+		<div id="myLinks">
+			
+                		<li><a class="red" href="https://vivikp.bandcamp.com/" target="_blank">bandcamp</a></li>
+				<li><a class="pink" href="https://www.deviantart.com/veevyo" target="_blank">deviantart</a></li>
+				<li><a class="orange" href="mailto:kittytheface@gmail.com" target="_blank">email me</a></li>
+				<li><a class="yellow" href="https://github.com/veevyo" target="_blank">github</a></li>
+				<li><a class="green" href="https://veevyo.newgrounds.com/" target="_blank">newgrounds</a></li>
+				<li><a class="cyan" href="https://open.spotify.com/artist/5WueKoxgwwnn0yoEtspAuQ" target="_blank">spotify</a></li>
+				<li><a class="purple" href="https://twitter.com/veevyokp" target="_blank">twitter</a></li>
+				<li><a class="grey rainbowText" href="javascript:randomlink()">click me!</a></li>
+			
+		</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+ 		<i class="fa fa-bars grey"></i>
+ 	</a>
+	</div>
 	<section>
 		<p class="grey big">welcome to vivi's site</p>
 		<p class="grey smaller">this is my name. as you can see, i can go by vivi or ian</p>
@@ -45,5 +53,16 @@ randomlinks[7]="pages/song7.html"
 
 function randomlink(){
         window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 </script>

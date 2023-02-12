@@ -21,12 +21,7 @@
                 left: 50%;
                 margin-right: -50%;
                 transform: translate(-50%, -50%)*/
-        }
-	.nav {
-		padding: 1em;
-		background-color: #1f1e1e;
-		border-radius: 1em;
-	}
+    	}
 	hr {
 		width: 100%;
   		margin-left: 0;
@@ -35,6 +30,7 @@
 ul {
   border-radius: 1em;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   list-style-type: none;
@@ -46,7 +42,35 @@ ul {
   top: 0;
   width: 100%;
 }
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f1e1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*.nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}*/
 
+.nav a.icon {
+  color: white;
+  font-size: 3em;
+}
+div #myLinks {
+	display: none;
+}
 li {
   /*float: left;*/
 }
@@ -58,6 +82,7 @@ li a {
   text-align: center;
   padding: 1em;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .active {
@@ -135,7 +160,7 @@ li a {
 
 	@keyframes move {
   		to {
-    			background-position: 500vh;
+    			background-position: 1000vh;
   		}
 	}
 
@@ -144,36 +169,12 @@ li a {
 			width: 90%;
 		}
 		li a {
-			font-size: 1em;
+			font-size: 2em;
 		}
 	}
-	@media screen and (max-width: 800px) {
-		li a {
-			font-size: 0.7em;
-		}
-	}
-	@media screen and (max-width:600px) {
-                section {
-                        width: 90%;
-                }
-                .big {
-                        font-size: 5em;
-                }
-                .small {
-                        font-size: 3em;
-                }
-                .smallish {
-                        font-size: 2em;
-                }
-                li a {
-                        font-size: 0.5em;
-                }
-
-
-        }
 	@media screen and (min-width: 1500px) {
 		li a {
-			font-size: 1.3em;
+			font-size: 1.5em;
 		}
 	}
 
