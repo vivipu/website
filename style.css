@@ -3,7 +3,7 @@
 	}
 	body {
                 background-color: #1f1e1e;
-                font-family: Ubuntu;
+                font-family: 'Terminal', sans-serif;
 		width: 100%;
         }
         section {
@@ -15,7 +15,7 @@
 		justify-content: center;
 		min-height: 100%;
 		margin: 0 auto;
-		width: 50%;
+		width: 65%;
                 /*position: absolute;
                 top: 50%;
                 left: 50%;
@@ -26,6 +26,21 @@
 		width: 100%;
   		margin-left: 0;
   		margin-right: 0;
+	}
+	#wrapper
+	{
+		background-color: #2e2e2e;
+                border-radius: 1em;
+                padding: 2em;
+		width: 65%;
+		text-align: center;margin:0 auto;
+		justify-content: center;
+	}
+	.inner
+	{
+		text-align: center;
+		justify-content: center;
+		display:inline-block;
 	}
 ul {
   border-radius: 1em;
@@ -104,25 +119,25 @@ li a {
 
         a:active { text-decoration: none; }
         .big {
-                font-size: 6em;
+                font-size: 4em;
 		line-height: 1em;
                 text-decoration: bold;
         }
         .medium {
-                font-size: 5em;
+                font-size: 1.5em;
         }
         .small {
-                font-size: 4em;
+                font-size: 2em;
         }
 	.smallish {
-		font-size: 3em;
+		font-size: 1em;
 	}
 	.headertext {
 		font-size: 1.7em;
 		text-align: center;
 	}
         .smaller {
-                font-size: 2em;
+                font-size: 1.5em;
         }
         .red {
                 color: #FF9AA2;
