@@ -197,7 +197,9 @@ div #myLinks {
 			width: 80%;
 		}
 		#wrapper {
-			width: 75%;
+			width: 85%;
+			padding: 0;
+			background-color: #1E1E2E;
 		}
 		.beegimage {
 			width: 100%;
@@ -209,13 +211,12 @@ div #myLinks {
 			display: block;
 		}
 		.inner {
-			padding: 2em;
+			padding: 0em;
+			background-color: #1E1E2E;
 		}
 
-		
-		#wrapper {
-			padding: 2em;
-		}
+
+
 	}
 	@media screen and (min-width: 1500px) {
 	}
