@@ -1,6 +1,16 @@
 	html,body{
     		overflow-x: hidden;
 	}
+	.button {
+		background-color: white;
+		border-color: white;
+		border-radius: 1em;
+		padding: 1em;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+	}
+
 	body {
                 background-color: #1E1E2E;
                 font-family: 'TheGoodMonolith', sans-serif;
@@ -118,6 +128,9 @@ div #myLinks {
         a:hover { text-decoration: underline; }
 
         a:active { text-decoration: none; }
+	.left {
+		text-align: left;
+	}
         .big {
                 font-size: 3.5em;
                 text-decoration: bold;
