@@ -39,6 +39,7 @@
 	}
 	#wrapper
 	{
+		overflow: hidden;
 		background-color: #24273A;
 		border-radius: 1em;
 		display: flex;
