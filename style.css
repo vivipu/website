@@ -124,9 +124,9 @@ div #myLinks {
 		top: 50%;
 		
 	}
-        a:link { text-decoration: none; color: #8bd5ca }
+        a:link { text-decoration: none; }
 
-        a:visited { text-decoration: none; color: #8aadf4}
+        a:visited { text-decoration: none;}
 
         a:hover { text-decoration: underline; }
 
