@@ -10,7 +10,9 @@
 		justify-content: center;
 		margin: auto;
 	}
-
+	.adaptable {
+		width: 50%;
+	}
 	body {
                 background-color: #1E1E2E;
                 font-family: 'TheGoodMonolith', sans-serif;
@@ -203,12 +205,15 @@ div #myLinks {
 		color: #1E1E2E;
 	}
 
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 800px) {
 		.big {
 			font-size: 4em;
 		}
 		section {
 			width: 80%;
+		}
+		.adaptable {
+			width: 100%;
 		}
 		#wrapper {
 			width: 80%;
