@@ -125,7 +125,9 @@ div #myLinks {
 		height: auto;
 	}
 	.song {
-		top: 50%;
+		top: 50%
+		height: 500px
+		height: 500px;;;
 		
 	}
         a:link { text-decoration: none; }
@@ -228,7 +230,7 @@ div #myLinks {
 			width: 100%;
 		}
 		.hide {
-			display: none;
+			display: none !important;
 		}
 		.unhide {
 			display: block;
