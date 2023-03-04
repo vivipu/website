@@ -39,6 +39,10 @@
   		margin-left: 0;
   		margin-right: 0;
 	}
+	iframe {
+		width: 500px;
+		height: 500px;
+	}
 	#wrapper
 	{
 		overflow: hidden;
